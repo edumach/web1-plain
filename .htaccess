@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# na Wedosu zakomentovat
+Options +FollowSymLinks -MultiViews
+
+# podstrceni PHP, prepsat pouze na existujici skript
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^.]+)$    $1.php    [L]
+
+# chybova zprava pri nespravne URL
+ErrorDocument 404 "<h1>Error 404: Stranka neexisuje</h1><p><a href='./'>Domu</a></p>"

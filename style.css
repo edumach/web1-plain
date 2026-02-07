@@ -1,0 +1,77 @@
+/* styly */
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Arial", sans-serif;
+}
+
+div.hlavicka {
+    margin: 12px 0px 0px 0px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+div.hlavicka a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    background-color: #f1f1f1;
+    overflow: auto;
+}
+  
+.menu a {
+    /* display: block; */
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 3em;
+}
+   
+.menu a.active {
+    background-color: blue;
+    color: white;
+}
+  
+.menu a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  
+div.telo {
+    padding: 1px 16px;
+    min-height: 360px;
+	line-height: 1.3em;
+}
+  
+div.zapati {
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .menu a {
+        display: block;
+        padding: 0px 0px 0px 1em;
+    }
+}
+
+/* styl pro popis na strance index.php */
+code, pre {
+	font-family: consolas, "Courier New", monospace;
+	color: navy;
+	background-color: #eee;
+	padding: 2px;
+}
