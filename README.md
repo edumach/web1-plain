@@ -360,7 +360,7 @@ div.zapati {
 
 ---
 
-## Jak přidat novou stránku
+## Jak přidat novou stránku
 
 Přidání nové stránky se provádí ve třech krocích:
 
