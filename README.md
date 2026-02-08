@@ -420,17 +420,7 @@ Například:
 Stránka bude obsahovat:
 
 * **Krátké představení firmy**
-  (3–5 vět: čím se firma zabývá, komu poskytuje služby, kde působí – město může být smyšlené)
-
-* **Podnadpis „Naše zaměření“**
-
-* **Odrážkový seznam alespoň 4 položek**, např.:
-
-  * připojení k internetu
-  * servis počítačů
-  * zabezpečení sítí
-  * správa serverů
-
+  (2-3 věty: čím se firma zabývá, komu poskytuje služby, kde působí – město může být smyšlené)
 * **Jednu větu na závěr**, např. o zkušenostech nebo spolehlivosti.
 
 
@@ -440,12 +430,7 @@ Stránka bude obsahovat:
 
 * Úvodní větu (1–2 věty), že firma nabízí IT služby.
 
-* **Tři až čtyři služby**, každá ve struktuře:
-
-  * název služby jako podnadpis,
-  * krátký popis (1–2 věty).
-
-Například struktura:
+* **Tři až čtyři služby** v odrážkovém seznamu. Například:
 
 * Připojení k internetu – krátký popis
 * Servis počítačů – krátký popis
